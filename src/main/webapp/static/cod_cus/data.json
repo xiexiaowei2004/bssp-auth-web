@@ -1,0 +1,27 @@
+{
+  "total": 7,
+  "data": [
+    {
+      "wraptype": "1",
+      "wrapname": "木箱"
+    },{
+      "wraptype": "2",
+      "wrapname": "纸箱"
+    },{
+      "wraptype": "3",
+      "wrapname": "桶装"
+    },{
+      "wraptype": "4",
+      "wrapname": "散装"
+    },{
+      "wraptype": "5",
+      "wrapname": "托盘"
+    },{
+      "wraptype": "6",
+      "wrapname": "包"
+    },{
+      "wraptype": "7",
+      "wrapname": "其它"
+    }
+  ]
+}

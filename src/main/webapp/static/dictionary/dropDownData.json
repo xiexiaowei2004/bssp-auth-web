@@ -1,0 +1,9 @@
+{
+  "dll_BoolStatus":[{"id": "1", "text": "是"},{"id": "0", "text": "否"}],
+  "dll_IsValid":[{"id": "Y", "text": "有效"},{"id": "N", "text": "无效"}],
+  "dll_ContaStatus":[{"id": "0", "text": "空箱"},{"id": "1", "text": "重箱"},{"id": "2", "text": "散货"}],
+  "dll_IsEnable":[{"id": "1", "text": "启用"},{"id": "1", "text": "禁用"}],
+  "dll_ChkStatus":[{"id": "S", "text": "S 本地暂存"},{"id": "D", "text": "D 提交申报"},{"id": "1", "text": "1 入库成功"},{"id": "2", "text": "2 入库不成功"},{"id": "3", "text": "3 待审"},{"id": "P", "text": "P 审批通过"},{"id": "N", "text": "N 审批不通过"}],
+  "dll_WrapType": [ {"id": "1","text": "木箱"},{"id": "2","text": "纸箱"},{"id": "3","text": "桶装"},{ "id": "4","text": "散装"},{"id": "5","text": "托盘"},{ "id": "6","text": "包"},{"id": "7","text": "其它"}],
+  "dll_ValidateFlag":[{"id":"0","text":"有效"},{"id":"1","text":"暂停"},{"id":"2","text":"失效"}]
+}

@@ -1,0 +1,178 @@
+﻿@charset "utf-8";
+/*bssp系统登录*/
+html{
+	font-size: 10px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: "Microsoft YaHei";
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: #333;
+	background: #0168b7 url(../../../../images/login_bg.jpg) no-repeat 42.5% 120px;
+}
+ul,li,dl,dd,dt,p,input{
+	margin: 0;
+	padding: 0;
+}
+input[type*=text]{
+	background-color: #fff;
+}
+/*other public*/
+.login_wrap{
+	width: 328px;
+	margin: 6% auto 0 55%;
+	border-radius: 5px;
+	background-color: #fff;
+	animation: box_fadeIn 350ms ease-out;
+}
+.nav-tabs{
+	width: 100%;
+	height: 58px;
+	font-size: 1.8rem;
+	border-bottom: none;
+	/*box-shadow: 0 1px 2px #efefef;*/
+}
+.nav-tabs li{
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	background:  #d6f2ff url(../../../../images/tab_bg.png) no-repeat 0 100%;
+}
+.nav-tabs li:first-child{
+	border-radius: 5px 0 0 0;
+}
+.nav-tabs li:last-child{
+	border-radius: 0 5px 0 0;
+}
+.nav-tabs li.active{
+	background: #fff url(../../../../images/tab_bg.png) no-repeat -178px 100%;
+}
+.nav-tabs li a,.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	border: none;
+}
+.admin_head{
+	height: 80px;
+	width: 100%;
+	background:#394e6d url(../../../../images/logo.png) no-repeat 30% 50%;
+}
+/**/
+.admin_login {
+	width: 280px;
+	height: 260px;
+	margin: 20px auto;	
+}
+.login_ttl{
+	color: #333;
+	font-size: 2.4rem;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+.admin_login dd{
+	height: 40px;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+.admin_login .user_icon,.admin_login .pwd_icon{	
+	border: #d2d2d2 solid 1px;	
+	border-radius: 4px;
+}
+.admin_login dd .login_txtbx {
+	font-size: 14px;
+	height: 38px;
+	line-height: 38px;
+	margin-left: 40px;
+	width: 236px;
+	border: none;
+}
+.user_icon{
+	background: url(../../../../images/login_01.jpg) no-repeat 8px 50%;
+}
+.pwd_icon{
+	border: none;
+	background: url(../../../../images/login_02.jpg) no-repeat 8px 50%;
+}
+.admin_login .val_icon{
+	border: none;
+}
+.val_icon .login_txtbx{
+	padding-left: 30px;
+	border-radius: 5px;
+	width: 80px;
+	background: url(../../../../images/login_03.jpg) no-repeat 4px 50%;
+}
+.admin_login dd .login_txtbx:focus {
+	border-color: #0589de;
+}
+.admin_login dd .ver_btn {
+	text-align: center;
+	border: none;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	z-index: 1;
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 40px;
+	background:url(../../../../images/login_04.jpg) no-repeat 50% 50%;
+}
+.admin_login dd .checkcode {
+	float: left;
+	width: 200px;
+	height: 40px;
+}
+.admin_login dd .checkcode input {
+	width: 90px;
+	height: 38px;
+	line-height: 38px;
+	outline: none;
+	margin:0 6px 0 0;
+	border: #e5e5e6 solid 1px;
+}
+.checkcode .J_codeimg {
+	width: 85px;
+	height: 40px;
+	background: #5cbdaa;
+	margin-top: -4px;
+}
+.submit_btn,.ic_submit_btn {
+	width: 280px;
+	height: 40px;
+	border: none;
+	font-size: 16px;
+	background: #0589de;
+	color: #fff;
+	border-radius: 5px;
+}
+.submit_btn:hover {
+	background: #0c9076;
+	color: #f4f4f4;
+}
+.admin_login dd p {
+	color: #808080;
+	font-size: 12px;
+	text-align: center;
+	margin: 5px 0;
+}
+@keyframes box_fadeIn{
+	0%{
+		opacity: 0;
+		transform: translateX(100px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+.copyright{
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	line-height: 1.5rem;
+	font-size: 1.2rem;
+	color: #01b4ff;
+	bottom: 2rem;
+}

@@ -1,0 +1,167 @@
+.div-pad {
+	padding: 10px;
+}
+
+.div-left-pad {
+	padding-left: 10px;
+}
+
+.div-top-pad {
+	padding-top: 5px;
+}
+
+.box-line {
+	border: #d9dee4 solid 1px;
+}
+
+.box-bottom-line {
+	border-bottom: #d9dee4 solid 1px;
+}
+
+.box-top-line {
+	border-top: #d9dee4 solid 1px;
+}
+
+.control-label {
+	display: inline-block;
+	max-width: 100%;
+	font-weight: 700;
+	text-align: right;
+	padding-right: 0px;
+}
+
+.table-label {
+	/* font-weight: 600; */
+	text-align: right;
+	font-size: 12px;
+}
+
+.content-container {
+	border: #d9dee4 solid 1px;
+	margin: 0 auto;
+	max-width: 1300px;
+	min-width: 900px;
+	height: auto;
+}
+
+.div-fixed {
+	position: fixed;
+}
+
+.div-margin {
+	margin-top: 10px;
+}
+
+.notempty {
+	color: #FF0000;
+}
+
+.select2-width {
+	width: 100%;
+}
+
+.validate-height {
+	height: 20px;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.form-group {
+	margin-bottom: 0;
+}
+
+#dataForm td {
+	border: none;
+}
+
+.checkbox, .radio {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	height: 24px;
+	line-height: 24px;
+	margin-right: 20px;
+}
+
+.checkbox ins, .radio ins {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	width: 23px;
+	height: 22px;
+	vertical-align: middle;
+	background: url(../image/icheck.png) no-repeat;
+	margin-right: 8px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	-ms-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+	vertical-align: middle;
+}
+
+.radio ins {
+	background-position: -120px 0px;
+}
+
+.radio .hover {
+	background-position: -144px 0px;
+}
+
+.radio .checked {
+	background-position: -168px 0px;
+}
+
+.radio .enable {
+	background-position: -214px 0px;
+}
+
+.radio .disabled {
+	background-position: -191px 0px;
+}
+
+.checkbox span, .radio span {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+}
+/* 表格内容不换行 */
+.table-nowrap td {
+	text-overflow: ellipsis; /* for IE */
+	-moz-text-overflow: ellipsis; /* for Firefox,mozilla */
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 200px;
+}
+
+.noborder td {
+	border: none;
+}
+
+.editDiv {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	background-color: #ffffff;
+	-webkit-overflow-scrolling:touch;
+	 margin:0;
+	 padding:0;
+	 -webkit-background-clip:content;
+	 box-shadow:1px 1px 50px rgba(0,0,0,.3);
+	 border-radius:2px;
+	 -webkit-animation-fill-mode:both;
+	 animation-fill-mode:both;
+	 -webkit-animation-duration:.3s;
+	 animation-duration:.3s
+}

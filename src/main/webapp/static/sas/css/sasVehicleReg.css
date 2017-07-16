@@ -1,0 +1,22 @@
+.input-group-addon{
+	width: 116px!important;
+}
+.input-group{
+	width: 100%!important;
+}
+.panel-body{
+	padding: 0!important;
+}
+.caption{
+	padding: 10px;
+	background-color: #f2dede;
+}
+.btn_div{
+	padding: 5px 0px 5px 10px;
+}
+.business_data th{
+	text-align: center;
+}
+.modal-body .input-group{
+	margin-bottom: 3% !important;
+}

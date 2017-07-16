@@ -1,0 +1,57 @@
+{
+  "total": 10,
+  "data": [
+    {
+      "uid":"402881fa5c6d36c2015c6d3a98800034",
+      "gdsSeqno": "1",
+      "mtpckEndprdTypename": "1",
+      "gdsMtno": "1",
+      "gdecd": "1",
+      "gdsNm": "电脑",
+      "endprdGdsSpcfModelDesc": "16寸",
+      "dclUnitcd": "尺寸",
+      "lawfUnitcd": "像素"
+    },{
+     "uid":"402881fa5c6d36c2015c6d3d1acd0043",
+      "gdsSeqno": "2",
+      "mtpckEndprdTypename": "2",
+      "gdsMtno": "2",
+      "gdecd": "2",
+      "gdsNm": "电脑2",
+      "endprdGdsSpcfModelDesc": "16寸",
+      "dclUnitcd": "尺寸",
+      "lawfUnitcd": "像素"
+    },{
+      "uid":"402881fa5c7137a0015c714388000015",
+      "gdsSeqno": "3",
+      "mtpckEndprdTypename": "3",
+      "gdsMtno": "3",
+      "gdecd": "3",
+      "gdsNm": "电脑3",
+      "endprdGdsSpcfModelDesc": "16寸",
+      "dclUnitcd": "尺寸",
+      "lawfUnitcd": "像素"
+    },{
+      "uid":"402881ec5c2e2b44015c2f1ab65d00dd",
+      "gdsSeqno": "4",
+      "mtpckEndprdTypename": "4",
+      "gdsMtno": "4",
+      "gdecd": "4",
+      "gdsNm": "电脑4",
+      "endprdGdsSpcfModelDesc": "16寸",
+      "dclUnitcd": "尺寸",
+      "lawfUnitcd": "像素"
+    },{
+      "uid":"402881ec5c2e2b44015c2f1ab65d00ee",
+      "gdsSeqno": "5",
+      "mtpckEndprdTypename": "5",
+      "gdsMtno": "5",
+      "gdecd": "5",
+      "gdsNm": "电脑5",
+      "endprdGdsSpcfModelDesc": "16寸",
+      "dclUnitcd": "尺寸",
+      "lawfUnitcd": "像素"
+    }
+
+  ]
+}
